@@ -1,0 +1,51 @@
+{
+  "name": "modified-dicom-pacs",
+  "version": "1.0.1",
+  "description": "A modified version of DICOM PACS implementation",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "import": "node src/storescu.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadHassaanMahmood5550/modified-dicom-pacs.git"
+  },
+  "keywords": [
+    "DICOMWEB",
+    "PACS",
+    "ARCHIVE"
+  ],
+  "author": "helical",
+  "license": "MIT",
+  "bin": {
+    "dicomweb-pacs": "bin/dicomweb-pacs"
+  },
+  "bugs": {
+    "url": "https://github.com/MuhammadHassaanMahmood5550/modified-dicom-pacs/issues"
+  },
+  "homepage": "https://github.com/MuhammadHassaanMahmood5550/modified-dicom-pacs#readme",
+  "dependencies": {
+    "config": "^3.3.9",
+    "dicom-data-dictionary": "^0.3.1",
+    "dicom-dimse-native": "^2.3.2",
+    "dicom-parser": "^1.8.11",
+    "fastify": "^3.25.3",
+    "fastify-compress": "^3.7.0",
+    "fastify-cors": "^6.0.2",
+    "fastify-helmet": "^5.3.2",
+    "fastify-sensible": "^3.1.2",
+    "fastify-static": "^4.5.0",
+    "shelljs": "^0.8.5",
+    "simple-node-logger": "^21.8.12",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1"
+  }
+}

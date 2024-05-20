@@ -1,0 +1,175 @@
+19:13:51.867 INFO  starting... 
+19:13:52.008 INFO  web-server listening on port: 5001 
+19:13:52.008 INFO  pacs-server listening on port: 8888 
+19:13:52.009 INFO  sending C-ECHO to target: DICOMWEB_PACS 
+19:13:52.012 INFO  Request Parameters: ====================== BEGIN A-ASSOCIATE-RQ =====================
+Our Implementation Class UID:      1.2.276.0.7230010.3.0.3.6.8
+Our Implementation Version Name:   OFFIS_DCMTK_368
+Their Implementation Class UID:    
+Their Implementation Version Name: 
+Application Context Name:    1.2.840.10008.3.1.1.1
+Calling Application Name:    DICOMWEB_PACS
+Called Application Name:     DICOMWEB_PACS
+Responding Application Name: 
+Our Max PDU Receive Size:    16384
+Their Max PDU Receive Size:  0
+Presentation Contexts:
+  Context ID:        1 (Proposed)
+    Abstract Syntax: =VerificationSOPClass
+    Proposed SCP/SCU Role: Default
+    Proposed Transfer Syntax(es):
+      =LittleEndianImplicit
+Requested Extended Negotiation: none
+Accepted Extended Negotiation:  none
+Requested User Identity Negotiation: none
+User Identity Negotiation Response:  none
+======================= END A-ASSOCIATE-RQ ====================== 
+19:13:52.014 INFO  Requesting Association 
+19:13:52.516 INFO  Association Parameters Negotiated: ====================== BEGIN A-ASSOCIATE-RQ =====================
+Our Implementation Class UID:      1.2.276.0.7230010.3.0.3.6.8
+Our Implementation Version Name:   OFFIS_DCMTK_368
+Their Implementation Class UID:    1.2.276.0.7230010.3.0.3.6.8
+Their Implementation Version Name: OFFIS_DCMTK_368
+Application Context Name:    1.2.840.10008.3.1.1.1
+Calling Application Name:    DICOMWEB_PACS
+Called Application Name:     DICOMWEB_PACS
+Responding Application Name: DICOMWEB_PACS
+Our Max PDU Receive Size:    16384
+Their Max PDU Receive Size:  16384
+Presentation Contexts:
+  Context ID:        1 (Accepted)
+    Abstract Syntax: =VerificationSOPClass
+    Proposed SCP/SCU Role: Default
+    Accepted SCP/SCU Role: Default
+    Accepted Transfer Syntax: =LittleEndianImplicit
+Requested Extended Negotiation: none
+Accepted Extended Negotiation:  none
+Requested User Identity Negotiation: none
+User Identity Negotiation Response:  none
+======================= END A-ASSOCIATE-RQ ====================== 
+19:13:52.580 INFO  request succeeded 
+20:13:08.640 INFO  starting... 
+20:13:08.740 INFO  web-server listening on port: 5001 
+20:13:08.741 INFO  pacs-server listening on port: 8888 
+20:13:08.741 INFO  sending C-ECHO to target: DICOMWEB_PACS 
+20:13:08.745 INFO  Request Parameters: ====================== BEGIN A-ASSOCIATE-RQ =====================
+Our Implementation Class UID:      1.2.276.0.7230010.3.0.3.6.8
+Our Implementation Version Name:   OFFIS_DCMTK_368
+Their Implementation Class UID:    
+Their Implementation Version Name: 
+Application Context Name:    1.2.840.10008.3.1.1.1
+Calling Application Name:    DICOMWEB_PACS
+Called Application Name:     DICOMWEB_PACS
+Responding Application Name: 
+Our Max PDU Receive Size:    16384
+Their Max PDU Receive Size:  0
+Presentation Contexts:
+  Context ID:        1 (Proposed)
+    Abstract Syntax: =VerificationSOPClass
+    Proposed SCP/SCU Role: Default
+    Proposed Transfer Syntax(es):
+      =LittleEndianImplicit
+Requested Extended Negotiation: none
+Accepted Extended Negotiation:  none
+Requested User Identity Negotiation: none
+User Identity Negotiation Response:  none
+======================= END A-ASSOCIATE-RQ ====================== 
+20:13:08.746 INFO  Requesting Association 
+20:13:09.248 INFO  Association Parameters Negotiated: ====================== BEGIN A-ASSOCIATE-RQ =====================
+Our Implementation Class UID:      1.2.276.0.7230010.3.0.3.6.8
+Our Implementation Version Name:   OFFIS_DCMTK_368
+Their Implementation Class UID:    1.2.276.0.7230010.3.0.3.6.8
+Their Implementation Version Name: OFFIS_DCMTK_368
+Application Context Name:    1.2.840.10008.3.1.1.1
+Calling Application Name:    DICOMWEB_PACS
+Called Application Name:     DICOMWEB_PACS
+Responding Application Name: DICOMWEB_PACS
+Our Max PDU Receive Size:    16384
+Their Max PDU Receive Size:  16384
+Presentation Contexts:
+  Context ID:        1 (Accepted)
+    Abstract Syntax: =VerificationSOPClass
+    Proposed SCP/SCU Role: Default
+    Accepted SCP/SCU Role: Default
+    Accepted Transfer Syntax: =LittleEndianImplicit
+Requested Extended Negotiation: none
+Accepted Extended Negotiation:  none
+Requested User Identity Negotiation: none
+User Identity Negotiation Response:  none
+======================= END A-ASSOCIATE-RQ ====================== 
+20:13:09.269 INFO  request succeeded 
+20:39:16.662 INFO  starting... 
+20:39:16.724 INFO  web-server listening on port: 5001 
+20:39:17.746 ERROR uncaught exception received: 
+20:39:17.747 ERROR TypeError: Cannot read properties of undefined (reading 'aet')
+    at Timeout._onTimeout (D:\markematics\work.hassaan\projects\react practice\OfficeTry\Helical-version2\webpacsApp\node_modules\dicomweb-pacs\src\utils.js:264:57)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) 
+20:39:19.754 INFO  pacs-server listening on port: undefined 
+20:39:19.778 INFO  {"code":2,"container":null,"message":"Source not set","status":"failure"} 
+20:43:51.847 INFO  shutting down web server... 
+20:43:56.263 INFO  starting... 
+20:43:56.323 INFO  web-server listening on port: 5001 
+20:43:57.338 ERROR uncaught exception received: 
+20:43:57.339 ERROR TypeError: Cannot read properties of undefined (reading 'aet')
+    at Timeout._onTimeout (D:\markematics\work.hassaan\projects\react practice\OfficeTry\Helical-version2\webpacsApp\node_modules\dicomweb-pacs\src\utils.js:264:57)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) 
+20:43:59.339 INFO  pacs-server listening on port: undefined 
+20:43:59.346 INFO  {"code":2,"container":null,"message":"Source not set","status":"failure"} 
+20:47:35.454 INFO  shutting down web server... 
+20:47:40.195 INFO  starting... 
+20:47:40.250 INFO  web-server listening on port: 5001 
+20:47:41.266 ERROR uncaught exception received: 
+20:47:41.270 ERROR TypeError: Cannot read properties of undefined (reading 'aet')
+    at Timeout._onTimeout (D:\markematics\work.hassaan\projects\react practice\OfficeTry\Helical-version2\webpacsApp\node_modules\dicomweb-pacs\src\utils.js:264:57)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) 
+20:47:43.270 INFO  pacs-server listening on port: undefined 
+20:47:43.276 INFO  {"code":2,"container":null,"message":"Source not set","status":"failure"} 
+20:50:46.294 INFO  shutting down web server... 
+20:50:51.088 INFO  starting... 
+20:50:51.142 INFO  web-server listening on port: 5001 
+20:50:52.167 ERROR uncaught exception received: 
+20:50:52.170 ERROR TypeError: Cannot read properties of undefined (reading 'aet')
+    at Timeout._onTimeout (D:\markematics\work.hassaan\projects\react practice\OfficeTry\Helical-version2\webpacsApp\node_modules\dicomweb-pacs\src\utils.js:264:57)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) 
+20:50:54.168 INFO  pacs-server listening on port: undefined 
+20:50:54.174 INFO  {"code":2,"container":null,"message":"Source not set","status":"failure"} 
+20:51:26.526 INFO  shutting down web server... 
+20:51:31.936 INFO  starting... 
+20:51:31.992 INFO  web-server listening on port: 5001 
+20:51:33.004 ERROR uncaught exception received: 
+20:51:33.005 ERROR TypeError: Cannot read properties of undefined (reading 'aet')
+    at Timeout._onTimeout (D:\markematics\work.hassaan\projects\react practice\OfficeTry\Helical-version2\webpacsApp\node_modules\dicomweb-pacs\src\utils.js:264:57)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) 
+20:51:35.002 INFO  pacs-server listening on port: undefined 
+20:51:35.009 INFO  {"code":2,"container":null,"message":"Source not set","status":"failure"} 
+20:52:54.272 INFO  shutting down web server... 
+20:52:59.185 INFO  starting... 
+20:52:59.241 INFO  web-server listening on port: 5001 
+20:53:00.261 INFO  sending C-ECHO to target: helicalDefault 
+20:53:00.282 INFO  {"code":1,"container":null,"message":"Request Parameters: ====================== BEGIN A-ASSOCIATE-RQ =====================\nOur Implementation Class UID:      1.2.276.0.7230010.3.0.3.6.5\nOur Implementation Version Name:   OFFIS_DCMTK_365\nTheir Implementation Class UID:    \nTheir Implementation Version Name: \nApplication Context Name:    1.2.840.10008.3.1.1.1\nCalling Application Name:    helicalDefault\nCalled Application Name:     helicalDefault\nResponding Application Name: helicalDefault\nOur Max PDU Receive Size:    16384\nTheir Max PDU Receive Size:  0\nPresentation Contexts:\n  Context ID:        1 (Proposed)\n    Abstract Syntax: =VerificationSOPClass\n    Proposed SCP/SCU Role: Default\n    Proposed Transfer Syntax(es):\n      =LittleEndianImplicit\nRequested Extended Negotiation: none\nAccepted Extended Negotiation:  none\nRequested User Identity Negotiation: none\nUser Identity Negotiation Response:  none\n======================= END A-ASSOCIATE-RQ ======================","status":"pending"} 
+20:53:00.284 INFO  {"code":1,"container":null,"message":"Requesting Association","status":"pending"} 
+20:53:02.269 INFO  pacs-server listening on port: 9999 
+20:53:21.324 INFO  {"code":2,"container":null,"message":"Association Request failed: Failed to establish association\n0006:0317 Peer aborted Association (or never connected)\n0006:031c TCP Initialization Error: The operation completed successfully.","status":"failure"} 
+20:53:47.332 INFO  shutting down web server... 
+20:53:51.665 INFO  starting... 
+20:53:51.716 INFO  web-server listening on port: 5001 
+20:53:52.726 INFO  sending C-ECHO to target: helicalDefault 
+20:53:52.741 INFO  {"code":1,"container":null,"message":"Request Parameters: ====================== BEGIN A-ASSOCIATE-RQ =====================\nOur Implementation Class UID:      1.2.276.0.7230010.3.0.3.6.5\nOur Implementation Version Name:   OFFIS_DCMTK_365\nTheir Implementation Class UID:    \nTheir Implementation Version Name: \nApplication Context Name:    1.2.840.10008.3.1.1.1\nCalling Application Name:    helicalDefault\nCalled Application Name:     helicalDefault\nResponding Application Name: helicalDefault\nOur Max PDU Receive Size:    16384\nTheir Max PDU Receive Size:  0\nPresentation Contexts:\n  Context ID:        1 (Proposed)\n    Abstract Syntax: =VerificationSOPClass\n    Proposed SCP/SCU Role: Default\n    Proposed Transfer Syntax(es):\n      =LittleEndianImplicit\nRequested Extended Negotiation: none\nAccepted Extended Negotiation:  none\nRequested User Identity Negotiation: none\nUser Identity Negotiation Response:  none\n======================= END A-ASSOCIATE-RQ ======================","status":"pending"} 
+20:53:52.743 INFO  {"code":1,"container":null,"message":"Requesting Association","status":"pending"} 
+20:53:54.730 INFO  pacs-server listening on port: 9999 
+20:54:13.788 INFO  {"code":2,"container":null,"message":"Association Request failed: Failed to establish association\n0006:0317 Peer aborted Association (or never connected)\n0006:031c TCP Initialization Error: The operation completed successfully.","status":"failure"} 
+20:55:36.973 INFO  shutting down web server... 
+20:55:42.050 INFO  starting... 
+20:55:42.103 INFO  web-server listening on port: 5001 
+20:55:43.119 INFO  sending C-ECHO to target: helicalDefault 
+20:55:43.147 INFO  {"code":1,"container":null,"message":"Request Parameters: ====================== BEGIN A-ASSOCIATE-RQ =====================\nOur Implementation Class UID:      1.2.276.0.7230010.3.0.3.6.5\nOur Implementation Version Name:   OFFIS_DCMTK_365\nTheir Implementation Class UID:    \nTheir Implementation Version Name: \nApplication Context Name:    1.2.840.10008.3.1.1.1\nCalling Application Name:    helicalDefault\nCalled Application Name:     helicalDefault\nResponding Application Name: helicalDefault\nOur Max PDU Receive Size:    16384\nTheir Max PDU Receive Size:  0\nPresentation Contexts:\n  Context ID:        1 (Proposed)\n    Abstract Syntax: =VerificationSOPClass\n    Proposed SCP/SCU Role: Default\n    Proposed Transfer Syntax(es):\n      =LittleEndianImplicit\nRequested Extended Negotiation: none\nAccepted Extended Negotiation:  none\nRequested User Identity Negotiation: none\nUser Identity Negotiation Response:  none\n======================= END A-ASSOCIATE-RQ ======================","status":"pending"} 
+20:55:43.154 INFO  {"code":1,"container":null,"message":"Requesting Association","status":"pending"} 
+20:55:45.121 INFO  pacs-server listening on port: 9999 
+20:55:45.176 INFO  {"code":1,"container":null,"message":"Association Parameters Negotiated: ====================== BEGIN A-ASSOCIATE-RQ =====================\nOur Implementation Class UID:      1.2.276.0.7230010.3.0.3.6.5\nOur Implementation Version Name:   OFFIS_DCMTK_365\nTheir Implementation Class UID:    1.2.276.0.7230010.3.0.3.6.5\nTheir Implementation Version Name: OFFIS_DCMTK_365\nApplication Context Name:    1.2.840.10008.3.1.1.1\nCalling Application Name:    helicalDefault\nCalled Application Name:     helicalDefault\nResponding Application Name: helicalDefault\nOur Max PDU Receive Size:    16384\nTheir Max PDU Receive Size:  16384\nPresentation Contexts:\n  Context ID:        1 (Accepted)\n    Abstract Syntax: =VerificationSOPClass\n    Proposed SCP/SCU Role: Default\n    Accepted SCP/SCU Role: Default\n    Accepted Transfer Syntax: =LittleEndianImplicit\nRequested Extended Negotiation: none\nAccepted Extended Negotiation:  none\nRequested User Identity Negotiation: none\nUser Identity Negotiation Response:  none\n======================= END A-ASSOCIATE-RQ ======================","status":"pending"} 
+20:55:45.196 INFO  {"code":0,"container":null,"message":"request succeeded","status":"success"} 
+20:57:14.358 INFO  shutting down web server... 
