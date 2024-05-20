@@ -4,14 +4,14 @@ const config = require('config');
 var fs = require('fs');
 const fs1 = require('fs-extra');
 var spawn = require('child_process').spawn;
-console.log('starting dicomweb-pacs...');
+console.log('starting modified-dicom-pacs...');
 
-process.chdir('./node_modules/dicomweb-pacs');
+process.chdir('./node_modules/modified-dicom-pacs');
 const ls = spawn('node', ['src/app.js']);
 
-console.log("checkpath=-=-", `${__dirname.split('\\webpacsApp')[0]}\\webpacsApp\\node_modules\\dicomweb-pacs\\Testss.Txt`);
-let TestsTxtFile = `${__dirname.split('\\webpacsApp')[0]}\\webpacsApp\\node_modules\\dicomweb-pacs\\Testss.Txt`;
-let getTxtFile = `${__dirname.split('\\webpacsApp')[0]}\\webpacsApp\\node_modules\\dicomweb-pacs\\getText.txt`;
+console.log("checkpath=-=-", `${__dirname.split('\\webpacsApp')[0]}\\webpacsApp\\node_modules\\modified-dicom-pacs\\Testss.Txt`);
+let TestsTxtFile = `${__dirname.split('\\webpacsApp')[0]}\\webpacsApp\\node_modules\\modified-dicom-pacs\\Testss.Txt`;
+let getTxtFile = `${__dirname.split('\\webpacsApp')[0]}\\webpacsApp\\node_modules\\modified-dicom-pacs\\getText.txt`;
 let DataNativeFolder = `${__dirname.split('\\webpacsApp')[0]}\\data\\Native`;
 
 ls.stdout.on('data', (data) => {

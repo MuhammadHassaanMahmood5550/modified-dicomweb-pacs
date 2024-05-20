@@ -4,21 +4,21 @@ var fs = require('fs');
 const fs1 = require('fs-extra');
 var spawn = require('child_process').spawn;
 
-process.chdir('./node_modules/dicomweb-pacs');
+process.chdir('./node_modules/modified-dicom-pacs');
 
-let TestsTxtFile = `${__dirname.split('\\webpacsApp')[0]}\\webpacsApp\\node_modules\\dicomweb-pacs\\Testss.Txt`;
-let getTxtFile = `${__dirname.split('\\webpacsApp')[0]}\\webpacsApp\\node_modules\\dicomweb-pacs\\getText.txt`;
+let TestsTxtFile = `${__dirname.split('\\webpacsApp')[0]}\\webpacsApp\\node_modules\\modified-dicom-pacs\\Testss.Txt`;
+let getTxtFile = `${__dirname.split('\\webpacsApp')[0]}\\webpacsApp\\node_modules\\modified-dicom-pacs\\getText.txt`;
 let DataNativeFolder = `${__dirname.split('\\webpacsApp')[0]}\\data\\Native`;
 
 // This fixes dicom-pacs in Unix-like file systems (MacOS/Linux...) where backslashes are used instead of forward slashes like on Windows
-if (__dirname.split('dicomweb-pacs\\').length <= 1) {
-  TestsTxtFile = `${__dirname.split('\\webpacsApp')[0]}\\webpacsApp\\node_modules\\dicomweb-pacs\\Testss.Txt`;
-  getTxtFile = `${__dirname.split('\\webpacsApp')[0]}\\webpacsApp\\node_modules\\dicomweb-pacs\\getText.txt`;
+if (__dirname.split('modified-dicom-pacs\\').length <= 1) {
+  TestsTxtFile = `${__dirname.split('\\webpacsApp')[0]}\\webpacsApp\\node_modules\\modified-dicom-pacs\\Testss.Txt`;
+  getTxtFile = `${__dirname.split('\\webpacsApp')[0]}\\webpacsApp\\node_modules\\modified-dicom-pacs\\getText.txt`;
   DataNativeFolder = `${__dirname.split('\\webpacsApp')[0]}\\data\\Native`;
 }
 
 function startServer() {
-  console.log('starting dicomweb-pacs...');
+  console.log('starting modified-dicom-pacs...');
   const ls = spawn('node', ['src/app.js']);
 
   ls.stdout.on('data', (data) => {

@@ -1,6 +1,6 @@
 {
   "name": "modified-dicom-pacs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A modified version of DICOM PACS implementation",
   "main": "app.js",
   "scripts": {
